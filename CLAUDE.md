@@ -42,6 +42,18 @@ gratuit jusqu'à 300 messages par jour). Même consigne que sur gardiens.idf.imm
 **le rappeler à chaque fois qu'il est question de diffusion, de QR code,
 d'affiche ou de lancement.**
 
+## L'échelle — toute l'Île-de-France, jamais une ville
+
+Ce site couvre les **huit départements**, et rien dans les textes ne doit laisser
+croire le contraire. Les exemples (villes, rues, enseignes, adresses des champs
+de formulaire) **balaient la région** au lieu de revenir toujours au même
+endroit : aujourd'hui Montreuil (93) pour le SMS, Cergy (95) pour l'adresse,
+Meaux (77) pour l'enseigne. **Antony n'apparaît que dans la page du 92**, parmi
+d'autres communes : cette ville est le terrain d'antony.immo, pas celui-ci.
+
+Même règle quand on parle du site ailleurs (messages, supports, présentations) :
+l'échelle est régionale.
+
 ## Le vocabulaire — règle absolue
 
 **Le mot « signalement » ne doit apparaître nulle part** : ni dans les textes, ni

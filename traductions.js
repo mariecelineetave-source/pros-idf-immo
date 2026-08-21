@@ -21,7 +21,7 @@
     pt: {
       "Navigation principale": "Navegação principal",
       "Adresses proposées": "Moradas propostas",
-      "12 rue des Rabats, Antony": "12 rue des Rabats, Antony",
+      "12 rue Victor-Hugo, Cergy": "12 rue Victor-Hugo, Cergy",
       "Bât. B": "Bloco B", "Bâtiment": "Bloco",
       "Esc. 2": "Escada 2", "Escalier": "Escada",
       "3e étage": "3.º andar", "Étage": "Andar",
@@ -151,7 +151,7 @@
 
       "Sophie": "Sofia", "M. Bernard": "Sr. Bernardo",
       "Coiffeuse, plombier, déménageur…": "Cabeleireira, canalizador, mudanças…",
-      "Salon Marine, Antony": "Salão Marine, Antony",
+      "Salon Marine, Meaux": "Salão Marine, Meaux",
       "Ils partent en province à la retraite, ils en ont parlé en juin.":
         "Vão para a província na reforma, falaram nisso em junho.",
       "sophie@exemple.fr": "sofia@exemplo.pt"
@@ -160,7 +160,7 @@
     en: {
       "Navigation principale": "Main navigation",
       "Adresses proposées": "Suggested addresses",
-      "12 rue des Rabats, Antony": "12 rue des Rabats, Antony",
+      "12 rue Victor-Hugo, Cergy": "12 rue Victor-Hugo, Cergy",
       "Bât. B": "Block B", "Bâtiment": "Block",
       "Esc. 2": "Stairwell 2", "Escalier": "Stairwell",
       "3e étage": "3rd floor", "Étage": "Floor",
@@ -290,7 +290,7 @@
 
       "Sophie": "Sophie", "M. Bernard": "Mr Bernard",
       "Coiffeuse, plombier, déménageur…": "Hairdresser, plumber, removals…",
-      "Salon Marine, Antony": "Salon Marine, Antony",
+      "Salon Marine, Meaux": "Salon Marine, Meaux",
       "Ils partent en province à la retraite, ils en ont parlé en juin.":
         "They're retiring to the countryside, they mentioned it in June.",
       "sophie@exemple.fr": "sophie@example.com"
