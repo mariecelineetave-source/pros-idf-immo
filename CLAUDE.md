@@ -34,6 +34,13 @@ page doit changer avec.
 
 ## ⚠️ À FAIRE AVANT D'OUVRIR LE RÉSEAU
 
+**La base est celle de la famille, jamais une base à part.** Ce site est
+raccordé au socle commun (projet Supabase `uiciolavnalimrjlpesx`, celui de
+gardiens, étudiants et associations), piloté depuis `app.idf.immo` — dépôt
+`app-idf-immo`. Le raccordement est son `base/correctif-2.sql` : réseau
+« pros », colonnes `enseigne` et `metier`, vue `pros`. Ne jamais créer un
+second projet : Marie-Céline doit voir tous les réseaux au même endroit.
+
 **Brancher un vrai expéditeur d'e-mails avant d'ouvrir l'espace personnel.**
 L'envoi inclus dans Supabase est bridé à quelques messages par heure et n'est
 pas prévu pour un service réel (Supabase → Project Settings → Authentication →

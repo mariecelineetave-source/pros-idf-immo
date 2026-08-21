@@ -1,26 +1,28 @@
 /* =====================================================================
    pros.idf.immo — coordonnées de la base
 
+   La base n'appartient pas à ce site : c'est celle de toute la famille
+   idf.immo, la même que gardiens, étudiants et associations, pilotée
+   depuis app.idf.immo (dépôt app-idf-immo). On ne crée JAMAIS un second
+   projet Supabase pour un site de la famille : Marie-Céline doit voir
+   tous les réseaux au même endroit.
+
    Ces deux valeurs sont PUBLIQUES par conception : elles voyagent dans le
    navigateur de chaque visiteur, et Supabase les qualifie lui-même de
-   « safe to use in a browser ». Les voir ne donne accès à rien.
+   « safe to use in a browser ». Les voir ne donne accès à rien. Ce qui
+   protège les données, ce sont les règles par ligne du socle : la base
+   refuse de servir à un professionnel autre chose que ses propres
+   opportunités, quelle que soit la requête.
 
-   Ce qui protège réellement les données, ce sont les règles installées par
-   base/schema.sql : la base refuse de servir à un professionnel autre chose
-   que ses propres opportunités, quelle que soit la requête qu'on lui adresse.
+   La clé secrète (sb_secret_…) n'a sa place ni ici ni dans aucun fichier.
 
-   La clé « secrète » (sb_secret_…), elle, n'a jamais sa place dans ce dépôt
-   ni dans aucun fichier du site.
-
-   ⚠️ TANT QUE CES DEUX VALEURS SONT VIDES, l'espace personnel n'est pas
-   ouvert : mon-espace.html l'annonce au visiteur au lieu de tomber en panne.
-   Pour l'ouvrir : créer un projet Supabase propre à pros.idf.immo (ne jamais
-   réutiliser celui de gardiens.idf.immo, les deux réseaux ne se mélangent
-   pas), y passer base/schema.sql, puis reporter ici l'URL du projet et la
-   clé publiable. base/installer.html décrit la manœuvre pas à pas.
+   Le raccordement de ce site au socle est le fichier
+   base/correctif-2.sql du dépôt app-idf-immo : il ouvre le réseau
+   « pros », ajoute l'enseigne et le métier à la fiche, et crée la vue
+   « pros » que mon-espace.html interroge.
    ===================================================================== */
 
 window.CONFIG_BASE = {
-  url: "",
-  cle: ""
+  url: "https://uiciolavnalimrjlpesx.supabase.co",
+  cle: "sb_publishable_rCVYAzc9PyppEfijDMdHzg_C--mKXj1"
 };

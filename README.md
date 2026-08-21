@@ -27,9 +27,12 @@ les liens d'appel fonctionnent sans JavaScript.
 1. **Vérifier l'activation FormSubmit** pour `contact@idf.immo` : sans elle, le
    formulaire n'envoie rien. Elle a déjà été faite pour gardiens.idf.immo ; à
    confirmer depuis ce site avec un envoi de test.
-2. **L'espace personnel** (`mon-espace.html`) attend un projet Supabase propre à
-   `pros.idf.immo`. Tant que `base/config.js` est vide, la page l'annonce
-   franchement au visiteur au lieu de tomber en panne.
+2. **Passer `base/correctif-2.sql`** (dépôt `app-idf-immo`) dans le projet
+   Supabase de la famille : c'est lui qui ouvre le réseau « pros » et crée la
+   vue que l'espace personnel interroge. Tant qu'il n'est pas passé, la page
+   `mon-espace.html` ne trouve pas sa table.
+3. **Brancher l'expéditeur d'e-mails (Brevo)** sur le projet commun — réglage
+   unique pour toute la famille, encore à faire.
 
 ## Mise en ligne
 
