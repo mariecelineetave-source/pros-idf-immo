@@ -151,7 +151,7 @@
 
       "Sophie": "Sofia", "M. Bernard": "Sr. Bernardo",
       "Coiffeuse, plombier, déménageur…": "Cabeleireira, canalizador, mudanças…",
-      "Salon Marine, Enghien-les-Bains": "Salão Marine, Enghien-les-Bains",
+      "Salon Marine, 75007 Paris": "Salão Marine, 75007 Paris",
       "Ils partent en province à la retraite, ils en ont parlé en juin.":
         "Vão para a província na reforma, falaram nisso em junho.",
       "sophie@exemple.fr": "sofia@exemplo.pt"
@@ -290,7 +290,7 @@
 
       "Sophie": "Sophie", "M. Bernard": "Mr Bernard",
       "Coiffeuse, plombier, déménageur…": "Hairdresser, plumber, removals…",
-      "Salon Marine, Enghien-les-Bains": "Salon Marine, Enghien-les-Bains",
+      "Salon Marine, 75007 Paris": "Salon Marine, 75007 Paris",
       "Ils partent en province à la retraite, ils en ont parlé en juin.":
         "They're retiring to the countryside, they mentioned it in June.",
       "sophie@exemple.fr": "sophie@example.com"

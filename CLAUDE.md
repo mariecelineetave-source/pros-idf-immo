@@ -47,9 +47,16 @@ d'affiche ou de lancement.**
 Ce site couvre les **huit départements**, et rien dans les textes ne doit laisser
 croire le contraire. Les exemples (villes, rues, enseignes, adresses des champs
 de formulaire) **balaient la région** au lieu de revenir toujours au même
-endroit : aujourd'hui Boulogne (92) pour le SMS, Paris 7e (75) pour l'adresse,
-Enghien-les-Bains (95) pour l'enseigne. Quand l'exemple est parisien, on écrit
-l'arrondissement (`75007 Paris`), jamais « Paris » tout court. **Antony n'apparaît que dans la page du 92**, parmi
+endroit : aujourd'hui Enghien-les-Bains (95) pour le SMS de la page contact, Paris 7e (75)
+pour le formulaire, Boulogne-Billancourt (92) en tête des communes de la page du
+92. Quand l'exemple est parisien, on écrit l'arrondissement (`75007 Paris`),
+jamais « Paris » tout court.
+
+**Les exemples d'une même page racontent une seule histoire.** Le formulaire de
+`partager.html` est rempli par une seule personne : le commerce (`enseigne`) et
+le bien signalé (`adresse`) sont donc dans **la même commune** — un salon
+d'Enghien qui signale un bien du 7e arrondissement se voit au premier coup
+d'œil. Même exigence pour les prénoms et les numéros d'exemple. **Antony n'apparaît que dans la page du 92**, parmi
 d'autres communes : cette ville est le terrain d'antony.immo, pas celui-ci.
 
 Même règle quand on parle du site ailleurs (messages, supports, présentations) :
