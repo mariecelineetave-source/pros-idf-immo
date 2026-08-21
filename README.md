@@ -24,14 +24,10 @@ les liens d'appel fonctionnent sans JavaScript.
 
 ## ⚠️ Ce qu'il reste à faire avant d'ouvrir le réseau
 
-1. **Allumer GitHub Pages et brancher le domaine.** Le site est dans son propre
-   dépôt depuis le 21 août 2026. Restent deux gestes : activer Pages (branche
-   `main`, racine) et créer l'enregistrement CNAME `pros`. Voir « Mise en
-   ligne » ci-dessous.
-2. **Vérifier l'activation FormSubmit** pour `contact@idf.immo` : sans elle, le
+1. **Vérifier l'activation FormSubmit** pour `contact@idf.immo` : sans elle, le
    formulaire n'envoie rien. Elle a déjà été faite pour gardiens.idf.immo ; à
    confirmer depuis ce site avec un envoi de test.
-3. **L'espace personnel** (`mon-espace.html`) attend un projet Supabase propre à
+2. **L'espace personnel** (`mon-espace.html`) attend un projet Supabase propre à
    `pros.idf.immo`. Tant que `base/config.js` est vide, la page l'annonce
    franchement au visiteur au lieu de tomber en panne.
 
@@ -41,12 +37,11 @@ les liens d'appel fonctionnent sans JavaScript.
 |---|---|
 | Adresse | https://pros.idf.immo |
 | Dépôt | `mariecelineetave-source/pros-idf-immo` (branche `main`, racine) |
-| DNS | enregistrement **CNAME** `pros` → `mariecelineetave-source.github.io.` chez l'hébergeur du domaine `idf.immo` |
+| DNS | enregistrement **CNAME** `pros` → `mariecelineetave-source.github.io.` chez Gandi |
 
-Le dépôt et le fichier `CNAME` sont en place. Il reste, dans l'interface
-GitHub : **Settings → Pages → Source : Deploy from a branch → `main` / `/(root)`**,
-puis l'enregistrement DNS ci-dessus. Le certificat HTTPS s'installe tout seul
-dans l'heure qui suit ; cocher **Enforce HTTPS** une fois qu'il est prêt.
+Tout est en place depuis le 21 août 2026 : Pages sert `main` à la racine, le
+DNS est branché et HTTPS est forcé. Un `git push` sur `main` met le site en
+ligne en une minute.
 
 ## Fichiers
 

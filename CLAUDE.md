@@ -34,13 +34,6 @@ page doit changer avec.
 
 ## ⚠️ À FAIRE AVANT D'OUVRIR LE RÉSEAU
 
-**Allumer GitHub Pages et brancher le domaine.** Le site a été transplanté dans
-son propre dépôt `mariecelineetave-source/pros-idf-immo` le 21 août 2026 ; le
-dossier `pros.idf.immo/` du dépôt `antony-immo` n'en est plus que l'historique
-de fabrication. Restent deux gestes manuels, dans les mains de Marie-Céline :
-activer Pages sur la branche `main` (racine), et créer l'enregistrement CNAME
-`pros` chez l'hébergeur du domaine `idf.immo`.
-
 **Brancher un vrai expéditeur d'e-mails avant d'ouvrir l'espace personnel.**
 L'envoi inclus dans Supabase est bridé à quelques messages par heure et n'est
 pas prévu pour un service réel (Supabase → Project Settings → Authentication →
@@ -200,10 +193,15 @@ d'images.
 
 - **Toute modification attend la validation explicite de Marie-Céline
   (« publie »).** Aucune rubrique de ce site n'est en publication automatique.
-- Mise en ligne : dépôt `mariecelineetave-source/pros-idf-immo`, branche `main`,
-  racine (transplanté le 21 août 2026). Le fichier `CNAME` est en place ; restent
-  l'activation de Pages et l'enregistrement CNAME `pros` →
-  `mariecelineetave-source.github.io.` chez l'hébergeur du domaine `idf.immo`.
+- **En ligne depuis le 21 août 2026** sur https://pros.idf.immo — dépôt
+  `mariecelineetave-source/pros-idf-immo`, branche `main`, racine, GitHub Pages,
+  HTTPS forcé. Le DNS est un enregistrement CNAME `pros` →
+  `mariecelineetave-source.github.io.` chez Gandi. **Pousser sur `main` met donc
+  le site à jour en une minute** : toute modification attend la validation
+  explicite de Marie-Céline (« publie »).
+- Le dossier `pros.idf.immo/` de la branche `claude/pros-idf-immo-8l4x15` du
+  dépôt `antony-immo` n'est plus que l'historique de fabrication : ne plus y
+  travailler.
 
 ## Divers
 
