@@ -122,8 +122,8 @@
       "Dites-nous si nous pouvons vous citer.": "Diga-nos se podemos dizer o seu nome.",
 
       "Votre opportunité n'est pas partie.": "A sua oportunidade não foi enviada.",
-      "La connexion a échoué. Vos réponses sont conservées sur cet appareil : réessayez dans un instant, ou appelez le":
-        "A ligação falhou. As suas respostas ficam guardadas neste aparelho: tente outra vez daqui a pouco, ou ligue para o",
+      "Vos réponses sont conservées sur cet appareil : réessayez dans un instant, ou appelez le":
+        "As suas respostas ficam guardadas neste aparelho: tente outra vez daqui a pouco, ou ligue para o",
       "Envoyer l'opportunité": "Enviar a oportunidade",
       "En envoyant, vous acceptez les": "Ao enviar, aceita as",
       "conditions de la prime": "condições do prémio (em francês)",
@@ -261,8 +261,8 @@
       "Dites-nous si nous pouvons vous citer.": "Tell us whether we may name you.",
 
       "Votre opportunité n'est pas partie.": "Your opportunity was not sent.",
-      "La connexion a échoué. Vos réponses sont conservées sur cet appareil : réessayez dans un instant, ou appelez le":
-        "The connection failed. Your answers are kept on this device: try again in a moment, or call",
+      "Vos réponses sont conservées sur cet appareil : réessayez dans un instant, ou appelez le":
+        "Your answers are kept on this device: try again in a moment, or call",
       "Envoyer l'opportunité": "Send the opportunity",
       "En envoyant, vous acceptez les": "By sending, you accept the",
       "conditions de la prime": "bonus conditions (in French)",
