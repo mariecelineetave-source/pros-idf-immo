@@ -31,8 +31,9 @@ les liens d'appel fonctionnent sans JavaScript.
    Supabase de la famille : c'est lui qui ouvre le réseau « pros » et crée la
    vue que l'espace personnel interroge. Tant qu'il n'est pas passé, la page
    `mon-espace.html` ne trouve pas sa table.
-3. **Brancher l'expéditeur d'e-mails (Brevo)** sur le projet commun — réglage
-   unique pour toute la famille, encore à faire.
+3. **Tester le formulaire une fois** depuis un navigateur : l'envoi passe par
+   FormSubmit, qui demande une activation par adresse. Injoignable depuis les
+   sessions Claude (le proxy le bloque), donc à faire à la main.
 
 ## Mise en ligne
 

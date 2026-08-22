@@ -41,13 +41,9 @@ gardiens, étudiants et associations), piloté depuis `app.idf.immo` — dépôt
 « pros », colonnes `enseigne` et `metier`, vue `pros`. Ne jamais créer un
 second projet : Marie-Céline doit voir tous les réseaux au même endroit.
 
-**Brancher un vrai expéditeur d'e-mails avant d'ouvrir l'espace personnel.**
-L'envoi inclus dans Supabase est bridé à quelques messages par heure et n'est
-pas prévu pour un service réel (Supabase → Project Settings → Authentication →
-SMTP Settings → « Custom SMTP » ; **Brevo** est le candidat naturel : français,
-gratuit jusqu'à 300 messages par jour). Même consigne que sur gardiens.idf.immo :
-**le rappeler à chaque fois qu'il est question de diffusion, de QR code,
-d'affiche ou de lancement.**
+**L'expéditeur d'e-mails est branché** (Brevo), vérifié le 22 août 2026 : les
+liens de connexion partent vers n'importe quelle adresse. La méthode de
+vérification est dans le `CLAUDE.md` de `app-idf-immo`.
 
 ## L'échelle — toute l'Île-de-France, jamais une ville
 
