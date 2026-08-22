@@ -45,6 +45,24 @@ second projet : Marie-Céline doit voir tous les réseaux au même endroit.
 liens de connexion partent vers n'importe quelle adresse. La méthode de
 vérification est dans le `CLAUDE.md` de `app-idf-immo`.
 
+## Le formulaire passe par FormSubmit — activation PAR SITE
+
+`partager.html` envoie l'opportunité à `contact@idf.immo` via FormSubmit. Ce
+service exige une **activation à la première soumission de chaque site** : il
+envoie un e-mail contenant un lien « Activate Form », et tant que personne n'a
+cliqué, **rien ne part** — le visiteur voit seulement que son envoi a échoué.
+
+Fait pour pros.idf.immo le 22 août 2026. **Un nouveau site de la famille devra
+refaire cette activation**, et son premier envoi de test échouera : c'est
+normal, il déclenche justement l'e-mail.
+
+L'encart d'échec du formulaire affiche désormais la réponse exacte du service
+(« Le service d'envoi a répondu : … »), ce qui rend ce diagnostic immédiat.
+Ne pas revenir à un message générique.
+
+FormSubmit est **injoignable depuis les sessions Claude** (le proxy réseau le
+bloque) : ce test ne peut être fait que depuis un vrai navigateur.
+
 ## L'échelle — toute l'Île-de-France, jamais une ville
 
 Ce site couvre les **huit départements**, et rien dans les textes ne doit laisser

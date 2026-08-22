@@ -31,9 +31,9 @@ les liens d'appel fonctionnent sans JavaScript.
    Supabase de la famille : c'est lui qui ouvre le réseau « pros » et crée la
    vue que l'espace personnel interroge. Tant qu'il n'est pas passé, la page
    `mon-espace.html` ne trouve pas sa table.
-3. **Tester le formulaire une fois** depuis un navigateur : l'envoi passe par
-   FormSubmit, qui demande une activation par adresse. Injoignable depuis les
-   sessions Claude (le proxy le bloque), donc à faire à la main.
+3. **Le formulaire est activé** chez FormSubmit depuis le 22 août 2026
+   (« Form at: https://pros.idf.immo/ »). Reste à confirmer par un envoi
+   complet que le message arrive bien dans `contact@idf.immo`.
 
 ## Mise en ligne
 
