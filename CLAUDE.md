@@ -270,3 +270,20 @@ inventer en attendant.
   faire les travaux ?** Rien ne l'interdit aujourd'hui ; à confirmer.
 - **Hébergement de la partie applicative** (espace personnel + back-office), qui
   ne peut pas vivre sur GitHub Pages.
+
+## Pas de pages par département
+
+Il y en a eu huit, une par département, jusqu'au 22 août 2026. Mesuré avant de
+les retirer : **81 % de texte identique** d'une page à l'autre — seuls le nom du
+département, son numéro et six villes changeaient. C'est la définition des pages
+satellites : Google les repère, les déclasse, et cela peut peser sur la
+réputation du domaine entier. Elles ont donc été supprimées, avec leur
+dictionnaire de traduction et leurs adresses dans le sitemap.
+
+**Ne pas les recréer à l'identique.** Si le référencement local redevient un
+objectif, chaque page devra dire quelque chose que les autres ne disent pas :
+des chiffres locaux sourcés (prix au m², volumes de vente, délais — la base DVF
+les donne), et non une reformulation du même texte.
+
+La section « Toute l'Île-de-France » de l'accueil reste en place : elle annonce
+la zone couverte, avec les huit départements affichés mais sans lien.
